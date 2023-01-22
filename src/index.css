@@ -64,15 +64,15 @@ code {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
-.stronghand-3e{
-  margin-top: 150px;
+.stronghand{
+  margin-top: 100px;
 }
-.stronghand-3e .flex Button{
+.background1 {
+  margin-top: -100px;
+  width: 300px;
+}
+.background1 img{
   width: 100%;
-  padding: 20px;
-}
-.stronghand-3e .flex a{
-  text-decoration: none;
 }
 .A,.B,.T{
   font-size: 20px;
@@ -80,4 +80,5 @@ code {
 }
 .Link div i{
   font-size: 40px;
+  
 }

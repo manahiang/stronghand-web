@@ -16,39 +16,38 @@ const and = 'https://playstore.com';
 function Body() {
   return (
     <>
-    <div className='body'>
-        <div className='flex justify-content-between'>
+      <div className='body'>
+        <div className='flex justify-content-between flex-title'>
           {/* Title */}
-
-          <div className='title' style={{ width: '50%' }}>
-            <h1 className='m-2' style={{ color: 'var(--surface-0)', lineHeight: '1.6', textAlign: 'left', fontSize: '50px', fontWeight: '700' }}>Specialize in providing comfort for rooms or offices</h1>
-            <div className='os m-2' style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <a href={ios} style={{ width: '49%' }}><Button label='Android' className="p-button-warning" icon="pi pi-android" /></a>
-              <a href={and} style={{ width: '49%' }}><Button label='IOS' className="p-button-warning" icon="pi pi-apple" /></a>
+          <div className='title '>
+            <h1 className='m-2 text-white text-left text-6xl font-bold line-height-3'>Specialize in providing comfort for rooms or offices</h1>
+            <div className='os flex'>
+              <a href={ios} className="w-full m-2"><Button label='Android' className="p-button-warning" icon="pi pi-android" /></a>
+              <a href={and} className="w-full m-2"><Button label='IOS' className="p-button-warning" icon="pi pi-apple" /></a>
             </div>
           </div>
           {/* background left */}
 
           <div className='background'>
-            <img src={bg1} width={600} alt=""/>
+            <img src={bg1} width={500} alt="" />
           </div>
         </div>
         {/* Solution */}
-        <div className='solution' style={{ marginTop: '150px' }} id="#s">
-          <h1 style={{ color: 'var(--yellow-500)', fontWeight: '800', fontSize: '50px' }}>Solution</h1>
-          <div className='flex justify-content-between' style={{ marginTop: '100px', color: 'var(--surface-0)' }}>
+        <div className='solution' style={{ marginTop: '150px' }}>
+          <h1 className='text-yellow-500 text-6xl font-bold m-2'>Solution</h1>
+          <div className='flex justify-content-between text-white flex-solution' style={{ marginTop: '100px' }}>
             <div className='card'>
-              <img src={bg1} alt="bg"/>
+              <img src={bg1} alt="bg" />
               <p>We are a specialist that provides comfort for your room or office.</p>
             </div>
 
             <div className='card'>
-              <img src={ele2} alt="ele"/>
+              <img src={ele2} alt="ele" />
               <p>Do not allow a power outlet to cause a fire.</p>
             </div>
 
             <div className='card'>
-              <img src={pl3} alt="pl"/>
+              <img src={pl3} alt="pl" />
               <p>We insured our plumbing offering quality, affordable, and 100% satisfaction guaranteed services to our local communities.</p>
             </div>
 
@@ -56,24 +55,27 @@ function Body() {
         </div>
         {/* Stronghand 3E */}
 
-        <div className='stronghand-3e'>
-          <h1 style={{ color: 'var(--yellow-500', fontSize: '50px' }}>Stronghand 3E</h1>
-          <div className='flex justify-content-between'>
-            <div className='title'>
-              <p style={{ fontSize: '20px', color: 'var(--surface-0)' }} className="text-danger">We are a specialist that provides comfort for your room or office.</p>
-              <div className='flex flex'>
-              <a href={ios} style={{width:'49%'}}><Button label='android' className='p-button-warning m-2' icon="pi pi-android"/></a>
-                <a href={and} style={{width:'49%'}}><Button label='ios' className='p-button-warning ml-4 mt-2' icon="pi pi-apple"/></a>
+        <div className='stronghand'>
+          <h1 className='text-yellow-500 text-6xl font-bold m-2 '>Stronghand</h1>
+          <div className='flex justify-content-between flex-title'>
+            {/* Title */}
+            <div className='title '>
+              <h1 className='m-2 text-white text-left text-sm font-bold line-height-3'>We are a specialist that provides comfort for your room or office.</h1>
+              <div className='os flex'>
+                <a href={ios} className="w-full m-2"><Button label='Android' className="p-button-warning" icon="pi pi-android" /></a>
+                <a href={and} className="w-full m-2"><Button label='IOS' className="p-button-warning" icon="pi pi-apple" /></a>
               </div>
             </div>
-            <div className='m-2'>
-              <img src={hand4} width={600} style={{ marginTop: '-150px' }} alt="hand" />
+            {/* background left */}
+
+            <div className='background1'>
+              <img src={hand4} width={500} alt="" />
             </div>
           </div>
         </div>
       </div>
-      <hr/>
-      <Footer/>
+      <hr />
+      <Footer />
     </>
   )
 }
