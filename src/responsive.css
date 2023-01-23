@@ -66,4 +66,12 @@
     margin-right: 200px;
 
    }
+   .flex-about{
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100%;
+   }
+   .flex-about .image{
+    width: 100%;
+   }
 }
