@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import { Button } from 'primereact/button';
 import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
 import "primereact/resources/primereact.min.css";                  //core css
@@ -10,6 +10,8 @@ import ele2 from '../assets/electric.svg';
 import pl3 from '../assets/plumbing2.svg';
 import hand4 from '../assets/SlashScreen.png';
 import Footer from './footer';
+import About from '../page/about';
+import logo_white from '../assets/logo.svg';
 const ios = 'https://appstore.com';
 const and = 'https://playstore.com';
 
@@ -33,8 +35,8 @@ function Body(title) {
           </div>
         </div>
         {/* Solution */}
-        <div className='solution' style={{ marginTop: '150px' }}>
-          <h1 className='text-yellow-500 text-6xl font-bold m-2'>{title.solution}</h1>
+        <div className='solution' style={{ marginTop: '150px' }} id='solution'>
+          <h1 className='text-yellow-500 text-6xl font-bold m-2' >{title.solution}</h1>
           <div className='flex justify-content-between text-white flex-solution' style={{ marginTop: '100px' }}>
             <div className='card'>
               <img src={bg1} alt="bg" />
@@ -50,13 +52,27 @@ function Body(title) {
               <img src={pl3} alt="pl" />
               <p>{title.solution3}</p>
             </div>
-
           </div>
         </div>
+       
+        {/* About */}
+
+        <div style={{ maxWidth: '1200px', height: 'auto', margin: 'auto', marginTop: '150px' }} id="about">
+      <div className='flex justify-between flex-about'>
+        <div className='w-8 -mt-5 image m-2'>
+          <img src={logo_white} alt='image' width={300} />
+        </div>
+        <div className='w-10 mt-5'>
+          <h1 className='text-white text-6xl'>{title.about}</h1>
+          <p className='text-white text-xl mt-6'>{title.about_Des}</p>
+        </div>
+      </div>
+   
+    </div>
         {/* Stronghand 3E */}
 
-        <div className='stronghand'>
-          <h1 className='text-yellow-500 text-6xl font-bold m-2 '>{title.stronghand}</h1>
+        <div className='stronghand' style={{marginTop:'150px'}}>
+          <h1 className='text-yellow-500 text-6xl font-bold m-2 ' id='product'>{title.stronghand}</h1>
           <div className='flex justify-content-between flex-title'>
             {/* Title */}
             <div className='title '>
