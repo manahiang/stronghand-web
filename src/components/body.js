@@ -54,24 +54,24 @@ function Body(title) {
             </div>
           </div>
         </div>
-       
+
         {/* About */}
 
         <div style={{ maxWidth: '1200px', height: 'auto', margin: 'auto', marginTop: '150px' }} id="about">
-      <div className='flex justify-between flex-about'>
-        <div className='w-8 -mt-5 image m-2'>
-          <img src={logo_white} alt='image' width={300} />
+          <div className='flex justify-between flex-about'>
+            <div className='w-8 -mt-5 image m-2'>
+              <img src={logo_white} alt='image' width={300} />
+            </div>
+            <div className='w-10 mt-5'>
+              <h1 className='text-white text-6xl'>{title.about}</h1>
+              <p className='text-white text-xl mt-6'>{title.about_Des}</p>
+            </div>
+          </div>
+
         </div>
-        <div className='w-10 mt-5'>
-          <h1 className='text-white text-6xl'>{title.about}</h1>
-          <p className='text-white text-xl mt-6'>{title.about_Des}</p>
-        </div>
-      </div>
-   
-    </div>
         {/* Stronghand 3E */}
 
-        <div className='stronghand' style={{marginTop:'150px'}}>
+        <div className='stronghand' style={{ marginTop: '150px' }}>
           <h1 className='text-yellow-500 text-6xl font-bold m-2 ' id='product'>{title.stronghand}</h1>
           <div className='flex justify-content-between flex-title'>
             {/* Title */}

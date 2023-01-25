@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'react-router-dom'
 import Logo from '../assets/logo_name.png';
 const fb = 'https://web.facebook.com/sh.homefix';
@@ -13,9 +14,9 @@ function Footer() {
           <img src={Logo} width={150} />
         </div>
         <div className='flex-column mt-3'>
-          <Link to="/about" className='no-underline'><div className='A m-2 text-white'>About</div></Link>
-          <Link to="/" className='no-underline'><div className='B m-2 text-white'>Privacy & Policy</div></Link>
-          <Link to="/" className='no-underline'><div className='T m-2 text-white'>Term Of USe</div></Link>
+          <AnchorLink href="#about" className='no-underline'><div className='A m-2 text-white'>About</div></AnchorLink>
+          <AnchorLink href="#container" className='no-underline'><div className='B m-2 text-white'>Privacy & Policy</div></AnchorLink>
+          <AnchorLink href="#container" className='no-underline'><div className='T m-2 text-white'>Term Of USe</div></AnchorLink>
         </div>
         <div className='Link flex justify-content-between mt-4' style={{ color: 'var(--surface-0)' }}>
           <a href={fb}><div className='m-2 text-white'><i className="pi pi-facebook"></i></div></a>
