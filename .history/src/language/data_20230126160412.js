@@ -1,0 +1,6 @@
+
+const Language=()=>{
+    en:{
+    'sol'
+    }
+}

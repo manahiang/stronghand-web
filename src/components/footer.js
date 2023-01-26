@@ -1,6 +1,5 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Link } from 'react-router-dom'
 import Logo from '../assets/logo_name.png';
 const fb = 'https://web.facebook.com/sh.homefix';
 const telegram = 'https://t.me/sh.homefix';
@@ -11,7 +10,7 @@ function Footer() {
     <>
       <div className='footer flex justify-content-between' style={{ maxWidth: '1200px', height: 'auto', margin: 'auto' }}>
         <div className='m-2'>
-          <img src={Logo} width={150} />
+          <img src={Logo} width={150} alt="logo"/>
         </div>
         <div className='flex-column mt-3'>
           <AnchorLink href="#about" className='no-underline'><div className='A m-2 text-white'>About</div></AnchorLink>
