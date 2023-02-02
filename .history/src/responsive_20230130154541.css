@@ -1,0 +1,89 @@
+.menu{
+    display: none;
+}
+@media (max-width:780px) {
+    .background img{
+        width: 350px;
+        margin-top: 150px;
+    }
+    .background1 img{
+        width: 400px;
+        margin-right: 00px;
+    }
+    /* blog-content */
+  .read{
+    display: none;
+  }
+  .mn{
+    margin-right: -20px;
+  }
+
+}
+
+@media (max-width:640px) {
+    .lan{
+        display: none;
+    }
+     .res{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+    /* Title */
+
+    .flex-title{
+    flex-direction: column;
+    }
+    .title{
+    margin: auto;
+    }
+    .os{
+        flex-direction: column;
+        margin-right: 16px;
+    }
+    
+    
+    .background img{
+        margin-left: 0px;
+        margin-top: -1px;
+    }
+
+  /* Solution */
+
+  .flex-solution{
+    flex-direction: column;
+  }
+  .flex-solution .card{
+    width: 100%;
+  }
+
+/* 
+  Stronghand */
+.background1  img{
+  margin-top: 100px;
+  margin-left: -60px;
+}
+
+  .footer{
+    flex-direction: column;
+  }
+  .Link{
+    display: flex;
+    margin-right: 200px;
+
+   }
+   .flex-about{
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100%;
+   }
+   .flex-about .image{
+    width: 100%;
+   }
+   .mn{
+    margin-right: -50px;
+   }
+ 
+}

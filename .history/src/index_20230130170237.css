@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+font-family: sans-serif;
+  background-color: #008000;;
+  color:black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  margin-top: 10px;
+}
+.header{
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+}
+/* .menu{
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+.navbar div{
+  padding: 20px 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.lan img{
+  padding: 10px;
+}
+.body{
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+  margin-top: 150px;
+}
+.body p{
+  font-size: 60px;
+}
+.os a{
+  text-decoration: none;
+}
+.os Button{
+  padding: 20px;
+  width: 100%;
+}
+.background{
+  width: 50%;
+  margin-left: 20px;
+}
+.card{
+  padding: 20px;
+  width: 32%;
+}
+.card img{
+  height:250px;
+  width: 100%;
+}
+.card p{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.stronghand{
+  margin-top: 100px;
+}
+.background1 {
+  margin-top: -100px;
+  width: 300px;
+}
+.background1 img{
+  width: 100%;
+}
+.A,.B,.T{
+  font-size: 20px;
+  font-weight: 700;
+}
+.Link div i{
+  font-size: 40px;
+  
+}
+.name1{
+  transform: translate(0px,10px);
+}
+.name2{
+  transform: translate(0px,-0px);
+}
