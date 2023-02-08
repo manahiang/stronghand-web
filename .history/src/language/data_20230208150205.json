@@ -1,0 +1,43 @@
+{
+    "blog1":[
+        {
+            "profile":{
+                "image":"https://imageio.forbes.com/specials-images/imageserve/09kZdVWgJO0tu/960x960.jpg?format=jpg&width=960",
+                "author":"Mark Zuckerberg",
+                "date":"Jul22,2023"
+            },
+            "headline":{
+                "title":"",
+                "dec":""
+            }
+        }
+    ],
+
+    "blog2":[
+        {
+            "profile":{
+                "image":"",
+                "author":"",
+                "date":""
+            },
+            "headline":{
+                "title":"",
+                "dec":""
+            }
+        }
+    ],
+
+    "blog3":[
+        {
+            "profile":{
+                "image":"",
+                "author":"",
+                "date":""
+            },
+            "headline":{
+                "title":"",
+                "dec":""
+            }
+        }
+    ]
+}
