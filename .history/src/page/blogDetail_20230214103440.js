@@ -24,7 +24,7 @@ function BlogDetail() {
             setMdFileName(data.data[id].description.mdFileName);
             // console.log(mdFileName)
             const { default: rs } = await import(`../markdown/${mdFileName}`);
-            console.log(rs)
+            // console.log(rs)
             const res = await fetch(`${rs.toString()}`);
             console.log(res)
             const r = await res.text();
