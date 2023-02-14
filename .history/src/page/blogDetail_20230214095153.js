@@ -36,6 +36,7 @@ function BlogDetail() {
         DynamicImport();
             
     }, [mdFileName, id]);
+    console.log(id)
 
     return (
         <>

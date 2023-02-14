@@ -24,11 +24,9 @@ function BlogDetail() {
             setMdFileName(data.data[id].description.mdFileName);
             // console.log(mdFileName)
             const { default: rs } = await import(`../markdown/${mdFileName}`);
-            // console.log(rs)
+            console.log()
             const res = await fetch(`http://localhost:3000${rs.toString()}`);
-            // console.log(res)
             const r = await res.text();
-            // console.log(r)
 
             setPost(r);
         }

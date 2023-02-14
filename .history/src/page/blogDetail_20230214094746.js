@@ -28,7 +28,7 @@ function BlogDetail() {
             const res = await fetch(`http://localhost:3000${rs.toString()}`);
             // console.log(res)
             const r = await res.text();
-            // console.log(r)
+            console.log(r)
 
             setPost(r);
         }

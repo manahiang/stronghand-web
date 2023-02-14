@@ -35,7 +35,7 @@ function BlogDetail() {
 
         DynamicImport();
             
-    }, [mdFileName, id]);
+    }, []);
 
     return (
         <>
